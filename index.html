@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+    const firebaseConfig = {
+  apiKey: "AIzaSyA65wi_-Qxs6owWXCDcuCb5fY5uLnhLg74",
+  authDomain: "shooting-game-8cfe0.firebaseapp.com",
+  projectId: "shooting-game-8cfe0",
+  storageBucket: "shooting-game-8cfe0.appspot.com",
+  messagingSenderId: "514049258380",
+  appId: "1:514049258380:web:bd2cf5e33dac59f99c1ca9",
+  measurementId: "G-CY9TNDVL6W"
+};
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
